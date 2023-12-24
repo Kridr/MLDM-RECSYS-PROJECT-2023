@@ -16,7 +16,6 @@ class Metrics:
         print(f"HR@{self.k} = {round(self.hit_rate(), 4)}")
         print(f"MRR@{self.k} = {round(self.mean_reciprocal_rank(), 4)}")
         print(f"Recall@{self.k} = {round(self.recall(), 4)}")
-        print(f"Recall_Otto@{self.k} = {round(self.recall_otto(), 4)}")
 
     def hit_rate(self):
         return (
