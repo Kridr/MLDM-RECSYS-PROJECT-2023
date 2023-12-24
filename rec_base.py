@@ -37,31 +37,11 @@ class Metrics:
     def recall(self):
         hits_mask = self._get_hit_mask()
         return (
-            hits_mask.sum(axis=1) / self.holdout.shape[1]
-        ).sum() / self.recommendations.shape[0]
-
-    def recall_otto(self):
-        hits_mask = self._get_hit_mask()
-        return (
-            hits_mask.sum(axis=1) / min(self.k, self.holdout.shape[1])
+            hits_mask.sum(axis=1) / self.recommendations.shape[1]
         ).sum() / self.recommendations.shape[0]
 
     def _get_hit_mask(self) -> np.ndarray:
         return (
             self.holdout[..., None] ==
-            np.expand_dims(self.recommendations[:, :self.k], axis=1)
+            np.expand_dims(self.recommendations, axis=1)
         ).any(axis=1)
-
-
-class RecModel:
-    def __init__(self):
-        pass
-
-    def build(self):
-        pass
-
-    def score(self):
-        pass
-
-    def recommend(self):
-        pass
