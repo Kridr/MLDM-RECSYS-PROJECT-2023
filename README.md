@@ -1,13 +1,12 @@
 # MLDM-RECSYS-PROJECT-2023
-
-Plan:
-- `EDA`: Nikita + review from Tatiana and Mishan (+)
-- `Base class`:
-  - Mishan (metrics implementation) (+)
-  - Tatiana (testing of Mishan's solution) (+)
-  - Nikita (proposed vectorized version of the same metrics) (+)
-- Models (TBD)
+- `EDA`: Nikita + Mishan + Tatiana
+- `Data Preparation`: Nikita + review from Mishan + Tatiana
+- `Base class`: Mishan + Nikita + Tatiana
+- `Models` (cross-review was performed also):
   - `CF`: Tatiana
-  - `PureSVD`: Mishan
+  - `ALS`: Mishan
   - `LightGCN`: Nikita
-- Report - Mishan + Tatiana
+- `Hypotheses`:
+  - `Merge recommendations`: Nikita
+  - `Enrich datasets`: Tatiana
+- `Report`: Mishan + Tatiana
