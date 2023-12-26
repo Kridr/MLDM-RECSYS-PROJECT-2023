@@ -10,3 +10,5 @@
   - `Merge recommendations`: Nikita
   - `Enrich datasets`: Tatiana
 - `Report`: Mishan + Tatiana
+
+Don't forget to look on other branches to see each team member's contributions.
