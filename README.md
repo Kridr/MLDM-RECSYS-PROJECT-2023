@@ -1,6 +1,6 @@
 # MLDM-RECSYS-PROJECT-2023
 - `EDA`: Nikita + Mishan + Tatiana
-- `Data Preparation`: Nikita + review from Mishan + Tatiana
+- `Data Preparation`: Nikita + review from (Mishan + Tatiana)
 - `Base class`: Mishan + Nikita + Tatiana
 - `Models` (cross-review was performed also):
   - `CF`: Tatiana
